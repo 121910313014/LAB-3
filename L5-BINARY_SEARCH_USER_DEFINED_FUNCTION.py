@@ -1,10 +1,4 @@
                                                         #BINARY SEARCH 
-#function for reading elements
-def array(n):
-    l=list()
-    print("Enter elements of a sorted list : ")
-    for i in range(n):  l.append(int(input()))
-    return l
 #function for binary search
 def bsearch(l,low,high,a):
     if high>=low:
