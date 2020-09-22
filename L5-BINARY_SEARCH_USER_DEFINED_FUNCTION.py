@@ -1,4 +1,4 @@
-                                                        #BINARY SEARCH WITH DYNAMIC INPUTS AND USER DEFINED FUNCTIONS
+                                                        #BINARY SEARCH 
 #function for reading elements
 def array(n):
     l=list()
