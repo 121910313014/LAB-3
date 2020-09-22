@@ -17,7 +17,7 @@ def bsearch(l,low,high,a):
             return bsearch(l,mid+1,high,a)
     else:
         return -1
-#reading length of the list from the user and calling array() function to read elements 
+#giving a list and element to be searched
 l=[10,11,20,45,63,74,97,143]
 a=74
 #calling bsearch function
