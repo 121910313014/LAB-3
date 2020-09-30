@@ -24,7 +24,7 @@ class LinkedList:
     def searching(self,k):
         c=self.head
         t=0 
-        while c.next:
+        while c:
             if c.data==k:
                 return t
             t+=1
