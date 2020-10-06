@@ -45,6 +45,6 @@ for i in range(n):
 print("Initial list:")
 s.display()
 key=int(input("enter any random  element except first and last:"))
-s.delElement(key)#calling method for deleting first key
+s.delElement(key)#calling method for deleting random key
 print("after deleting random element:")
 s.display()
